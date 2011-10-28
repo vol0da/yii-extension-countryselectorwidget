@@ -23,10 +23,10 @@ $this->widget('application.extensions.countrySelectorWidget', array(
 
 ### Attributes ###
 
-* __useCountryCode__ - whether use country code (US, GB) or fullname (United States, United Kingdom) as a value
+* __useCountryCode__ - determines whether country code (US, GB) or country full name (United States, United Kingdom) will be used for select value
 
-* __firstEmpty__ - wheter put an empty option at the top of the select with optional text __firstText__, by default (please select a country)
+* __firstEmpty__ - determines whether an empty option should be inserted on top of select. Text can be specified using __firstText__ parameter.
 
-* __firstText__ - text for an optional first option with empty value
+* __firstText__ - specifies text for optional empty first option, by default (please select a country)
 
-* __defaultValue__ - default preselected option in case __value__ is empty
+* __defaultValue__ - default pre-selected option for case __value__ is empty
