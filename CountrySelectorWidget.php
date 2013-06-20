@@ -78,7 +78,7 @@ class CountrySelectorWidget extends CWidget
         return $ret;
     }
 
-    private static function getCountries() {
+    public static function getCountries() {
         return  array(
             'AF' => Yii::t('application', "Afghanistan"),
             'AL' => Yii::t('application', "Albania"),
